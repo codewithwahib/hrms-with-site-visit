@@ -9,21 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sanity/client": "6.28.3",
-    "@sanity/image-url": "1.2.0",
-    "@sanity/vision": "3.71.1",
+    "@react-google-maps/api": "^2.20.8",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
     "html2pdf.js": "^0.14.0",
+    "leaflet": "^1.9.4",
     "lucide-react": "0.577.0",
+    "maplibre-gl": "^6.13.0",
     "next": "14.2.16",
-    "next-sanity": "9.12.3",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-icons": "5.6.0",
+    "react-leaflet": "^4.2.1",
     "recharts": "3.10.1",
-    "sanity": "3.99.0",
-    "styled-components": "6.3.8"
+    "styled-components": "6.3.8",
+    "zk-attendance-sdk": "^2.3.0",
+    "zkteco-js": "^1.7.2"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/leaflet": "^1.9.22",
     "@types/node": "^20",
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",

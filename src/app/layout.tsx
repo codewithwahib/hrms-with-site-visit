@@ -1,30 +1,25 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-import { AuthProvider } from '@/context/AuthContext'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'HR Management System',
-  description: 'HR and Employee Management Dashboard with authentication',
+  title: 'M. Nazir Enterprises Transport Services',
+  description: 'M. Nazir Enterprises Transport Services Management System',
   icons: {
     icon: '/favicon.ico',
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <AuthProvider>
-          {children}
-        </AuthProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
